@@ -10,6 +10,8 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -26,6 +28,19 @@
         thead, tfoot{
             background-color: gray;
             color:black;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1;
+            background-color: #383838;
+        }
+
+        tbody> tr:nth-child(odd){ /*2n-1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /*2n*/
+            background-color: lightgray;
         }
 
         td.num{
@@ -84,6 +99,7 @@
                 <td>Pernambuco</td>
                 <td class="num">9 539 029</td>
             </tr>
+        
 
         </tbody>
         <tfoot> 
@@ -94,6 +110,13 @@
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit veritatis temporibus maiores amet voluptates accusamus sit quaerat fugit voluptatem aliquam, dolorem illum rerum cumque consequatur natus omnis. Provident, sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque illo voluptatem iure incidunt, modi amet quam assumenda ab voluptatum vel animi quisquam explicabo sapiente pariatur molestiae in! Nihil, eveniet hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dicta ex nisi quas maxime provident neque quod facere explicabo officia hic voluptatum repudiandae ullam autem, iure nulla ipsum aut. Ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestiae veniam, ea quidem ab cumque velit fuga sint voluptatibus architecto odio. Repudiandae enim consequuntur velit tempora beatae atque explicabo ea.</p>
     
 </body>
 </html>
